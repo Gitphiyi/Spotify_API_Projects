@@ -50,7 +50,7 @@ def main():
 
     proj = APIProject(clientID=clientID, clientSecret=clientSecret, redirectURI=redirectURI, scope=scope, deviceType=deviceType[1])
     
-    proj.playSong("Viva La Vida")
+    proj.playSong("Pompeii")
 
 if __name__ == "__main__":
     main()
